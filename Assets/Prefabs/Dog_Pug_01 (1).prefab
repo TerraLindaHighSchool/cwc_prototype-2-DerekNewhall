@@ -4095,6 +4095,7 @@ GameObject:
   - component: {fileID: 8605237010390168552}
   - component: {fileID: 8605237010397910170}
   - component: {fileID: 8605237010259175034}
+  - component: {fileID: 842446269724021417}
   m_Layer: 0
   m_Name: Dog_Pug_01 (1)
   m_TagString: Untagged
@@ -4109,7 +4110,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8605237010390382932}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0.013567132, y: 0.9948145, z: -0.011532098, w: 0.100135215}
   m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children:
@@ -4152,7 +4153,7 @@ Transform:
   - {fileID: 8605237010390116814}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.47, y: 168.522, z: 1.4150001}
 --- !u!95 &8605237010397910170
 Animator:
   serializedVersion: 3
@@ -4185,6 +4186,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!65 &842446269724021417
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8605237010390382932}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.15234329, y: 0.23955844, z: 0.2784263}
+  m_Center: {x: -0.0041720867, y: 0.09281226, z: 0.02119273}
 --- !u!1 &8605237010390383622
 GameObject:
   m_ObjectHideFlags: 0
